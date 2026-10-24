@@ -1,0 +1,28 @@
+body{
+
+background-color: rgba(124, 59, 59, 0.795);
+
+}
+.titulo {
+
+text-align: center;
+font-size: 30px;
+}
+.subtitulo {
+
+  font-size: 25px;
+  color: rgb(2, 1, 1);
+  border-bottom: 3px solid rgb(61, 83, 116);
+}
+.p .parrafo {
+  
+ font-size: 16px; 
+
+}
+p .negrita {
+  font-weight: bold;
+}
+.imagen {
+  width: 45%;
+  height: 45%;
+}

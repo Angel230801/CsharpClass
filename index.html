@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+       name="viewport"
+       content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Styless.css" />
+    <link rel="stylesheet" href="C:\Users\angel\Documents\Vs code\index.html\csharp\Styles.css"   />
+    <title>Manual csharp</title>
+  </head>                                                                                                   
+  <body>
+<h1 class="titulo">Clases y Objetos en C#: 
+  Modificadores de Acceso y Encapsulamiento</h1>
+<br>
+<br>
+<h2 class="subtitulo">¿Qué es el Encapsulamiento?</h2>
+<p class="parrafo">El encapsulamiento es uno de los pilares fundamentales de la programación 
+  orientada a objetos (POO).Consiste en ocultar el estado interno y 
+  los datos de un objeto, permitiendo el acceso a ellos únicamente a través de métodos 
+  o propiedades controladas.</p>
+ <h3>¿Para qué sirve?</h3>
+
+<p class="parrafo"></p>
+<ul>
+  <li>Protege la integridad de los datos evitando que código externo modifique los valores de forma indebida o inválida.</li>
+  <li>Oculta la complejidad interna de cómo funciona una clase, exponiendo solo lo necesario para que otros objetos interactúen con ella.</li>
+</ul>
+<h2 class="subtitulo">Modificadores de Acceso en C#</h2>
+<p class="parrafo">Los modificadores de acceso son palabras clave que se utilizan para definir la visibilidad o accesibilidad de una clase, método, propiedad o variable dentro de un programa. En C# (versión 5 y otras), los principales son:</p>
+ 
+<h3>public (Público)</h3>
+<p class="parrafo">¿Qué hace? El elemento es totalmente accesible desde cualquier parte del programa, ya sea dentro de la misma clase, en clases derivadas o desde otro espacio de nombres completamente externo.</p>
+<h4>Ejemplo práctico:</h4>
+<img src="C:\Users\angel\Documents\Vs code\index.html\csharp\Screenshot_2.png" alt="clase pública" class="imagen">
+
+<h3>private (Privado)</h3>
+<p class="parrafo">¿Qué hace? Es el nivel más restrictivo. El elemento solo puede ser leído o modificado dentro de la misma clase donde fue declarado. Ninguna otra class (ni siquiera las hijas) puede acceder a él. Es la base principal para lograr el encapsulamiento.</p>
+<img src="C:\Users\angel\Documents\Vs code\index.html\csharp\Screenshot_3.png" alt="clase privada" class="imagen">
+
+<h3>protected (Protegido)</h3>
+<p class="parrafo">¿Qué hace? Permite que el elemento sea accesible dentro de su misma clase y también por clases herederas (derivadas), pero permanece oculto para el resto del mundo exterior.</p>
+<img src="C:\Users\angel\Documents\Vs code\index.html\csharp\Screenshot_4.png" alt="clase protegida" class="imagen">
+
+<h3>internal (Interno)</h3>
+<p class="parrafo">¿Qué hace? El elemento es accesible únicamente dentro de los archivos del mismo ensamblado (proyecto o DLL), pero no desde otros proyectos externos. (Nota: Es el modificador por defecto cuando declaras una clase sin especificar nada).</p>
+<img src="C:\Users\angel\Documents\Vs code\index.html\csharp\Screenshot_5.png" alt="clase interna" class="imagen">
+
+
+
+</body>
+</html>
